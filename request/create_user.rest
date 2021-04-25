@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/users 
+Content-Type: application/json
+
+{
+  "nombre": "Bruno",
+  "apellido": "Vicente",
+  "estrecho": false,
+  "sintoma": false
+}
+
+###
+
+POST http://localhost:3001/api/users 
+Content-Type: application/json
+
+{
+  "apellido": "Vicente",
+  "estrecho": false,
+  "sintoma": false
+}
